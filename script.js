@@ -10,7 +10,8 @@ const userInfoContainer = document.querySelector(".user-info-container");
 //initially vairables need????
 
 let oldTab = userTab;
-const API_KEY = "2714f725fb90e384a1c498e92919ee88";
+const API_KEY = "347d6fa07454cd5a1b3bab2950efd8f3";
+// use your own api key here from www.openweathermap.org
 oldTab.classList.add("current-tab");
 getfromSessionStorage();
 
